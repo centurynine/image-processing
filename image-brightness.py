@@ -14,7 +14,7 @@ def _sum(arr):
     print(f'SUM = {sum}')
 
 print('========= IMAGE BRIGHTNESS =========')
-loop = int(input('Enter loop<corunt> : '))
+loop = int(input('Enter loop<count> : '))
 row = int(input('Enter row<m*n> : '))
 for i in range(loop):
     count = count+1
