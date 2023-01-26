@@ -12,14 +12,14 @@ def _sum(arr):
         sum = sum + i
     print(f'ARR = {arr}')
     print(f'SUM = {sum}')
-    
-loop = int(input('Enter loop: '))
-row = int(input('Enter row: '))
+
+print('========= IMAGE BRIGHTNESS =========')
+loop = int(input('Enter loop<corunt> : '))
+row = int(input('Enter row<m*n> : '))
 for i in range(loop):
     count = count+1
     print(f"========= COUNT {count} =========")
     num = int(input('Enter num: '))
-    # sum(num, row)
     sum(num, row)
     
 _sum(ansArray)
